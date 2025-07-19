@@ -1,0 +1,36 @@
+.mainCont{
+    width: 50%;
+    min-height: 50vh;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.itemCont{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.itemCont button{
+    flex: 1;
+    min-height: 90%;
+}
+.delete{
+    background-color: red;
+    color: white;
+}
+.completed{
+    background-color: green;
+    color: white;
+}
+.task{
+    flex: 2; /* karen parent display flex, width child menggunkana proporsi menagatur width */
+}
+.status{
+    width: 20px;
+    margin-left: 5px;
+}
